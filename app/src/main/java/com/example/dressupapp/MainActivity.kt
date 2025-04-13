@@ -13,7 +13,11 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             DressUpAppTheme {
-                DressUpScreen()
+                DressUpScreen(
+
+
+
+                )
             }
         }
     }

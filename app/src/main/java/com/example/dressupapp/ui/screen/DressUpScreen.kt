@@ -12,6 +12,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.wrapContentSize
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -37,6 +38,7 @@ fun DressUpScreen(
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.Center
         ) {
+            Text("201911255신승철")
             CharacterDisplay(partsVisible, Modifier.fillMaxHeight().wrapContentSize(Alignment.Center))
             Spacer(modifier = Modifier.width(16.dp))
             Box(modifier = Modifier.wrapContentSize(Alignment.Center)) {
@@ -49,6 +51,7 @@ fun DressUpScreen(
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ) {
+            Text("201911255신승철")
             CharacterDisplay(partsVisible, Modifier.fillMaxWidth().wrapContentSize(Alignment.Center))
             Spacer(modifier = Modifier.height(16.dp))
             PartsSelector(partsVisible, viewModel::toggle)
